@@ -1,0 +1,23 @@
+
+.principal{
+    min-height: 50vh;
+    display: flex;
+    padding: 2rem;
+
+    h1{
+        color: $primario-300;
+        text-transform: uppercase;
+        font-weight:700;
+    }
+
+    h2{
+        color: $texto-100;
+
+        @include tablet{
+            font-size: 1.5rem;
+        }
+    }
+
+
+}
+

@@ -1,0 +1,26 @@
+.plantel{
+    text-align: center;
+    background-color: $bg-100;
+    border-radius: 1rem;
+    ul{
+        
+        li{
+            list-style: none;
+            margin: 0.3rem;
+            
+            a{
+                text-decoration: none;
+                color:$texto-100;
+                font-size: 1.6rem;
+                
+                @include mobile{
+                    font-size: 1.3rem;
+                }
+            }
+            a:hover{
+                color:$texto-200;
+                transition: color .3s ease;
+            }
+        }
+    }
+}

@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url("../../Fonts/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("../../Fonts/OpenSans-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Open Sans Regular";
+}
+
+body {
+  background-color: #FFA07A;
+}
+
+.header {
+  color: #FFFFFF;
+  background-color: #C24F4F;
+}
+.header img {
+  width: 6rem;
+  margin-left: 2rem;
+}
+.header .container-fluid .navbar-collapse .navbar-nav li {
+  font-size: 1.4rem;
+}
+
+footer {
+  background-color: #C24F4F;
+  padding: 1.5rem;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+.formulario form {
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .formulario form {
+    width: 50%;
+  }
+}
+.formulario form input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.3rem;
+}
+.formulario form input[type=submit] {
+  border: none;
+  font-size: 1.3rem;
+  transition: opacity 0.3s ease-out;
+  background-color: #944424;
+  color: #FFFFFF;
+}
+.formulario form input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.principal {
+  min-height: 50vh;
+  display: flex;
+  padding: 2rem;
+}
+.principal h1 {
+  color: #944424;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.principal h2 {
+  color: #FFFFFF;
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .principal h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.historia p {
+  font-size: 1.2rem;
+}
+
+.section__grupo-tecnico {
+  background-color: #d86260;
+  padding: 0.8rem;
+  border-radius: 10px;
+}
+
+.grupo-tecnico {
+  display: flex;
+  flex-direction: column;
+}
+.grupo-tecnico h3 {
+  margin: 0.5rem;
+}
+.grupo-tecnico a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.section__feria p {
+  font-size: 1.2rem;
+  padding: 1.5rem;
+}
+
+.plantel {
+  text-align: center;
+  background-color: #C24F4F;
+  border-radius: 1rem;
+}
+.plantel ul li {
+  list-style: none;
+  margin: 0.3rem;
+}
+.plantel ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+}
+@media screen and (max-width: 500px) {
+  .plantel ul li a {
+    font-size: 1.3rem;
+  }
+}
+.plantel ul li a:hover {
+  color: #e0e0e0;
+  transition: color 0.3s ease;
+}
+
+/*# sourceMappingURL=main.css.map */
