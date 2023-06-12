@@ -1,16 +1,9 @@
-@font-face {
-  font-family: "Open Sans Bold";
-  src: url("../../Fonts/OpenSans-Bold.ttf");
-}
-@font-face {
-  font-family: "Open Sans Regular";
-  src: url("../../Fonts/OpenSans-Regular.ttf");
-}
+
 * {
   margin: 0;
   padding: 0%;
   box-sizing: border-box;
-  font-family: "Open Sans Regular";
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
